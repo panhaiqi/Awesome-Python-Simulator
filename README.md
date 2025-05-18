@@ -30,17 +30,11 @@
 ### 数字电路/逻辑门模拟器
 
 - [BinPy](https://github.com/BinPy/BinPy)：用 Python 进行逻辑门与组合电路的建模与仿真，适合教学、原型实验。
-- [DigSim](https://github.com/caalberts/digsim)：Python 实现的数字逻辑电路仿真器，支持门电路搭建与波形分析。
 
 ### 协同仿真与验证
 
 - [cocotb](https://github.com/cocotb/cocotb)
-- [PyVPI](https://github.com/iamdudek/PyVPI)
 
-### 系统级/架构仿真
-
-- [PySPARC](https://github.com/dlsu-lscs/pySPARC)
-- [PyCPU](https://github.com/tekkamanendless/PyCPU)
 
 ### 混合信号/模拟电路仿真
 
@@ -50,7 +44,6 @@
 ### 其他相关/辅助工具
 
 - [hdlparse](https://github.com/kevinpt/hdlparse)
-- [fault](https://github.com/ucb-bar/fault)
 
 ---
 
