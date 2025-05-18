@@ -36,6 +36,7 @@
 ### 协同仿真与验证
 
 - [cocotb](https://github.com/cocotb/cocotb)
+- [pyvpi](https://github.com/antiface/pyvpi)
 
 
 ### 混合信号/模拟电路仿真
