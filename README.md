@@ -16,6 +16,7 @@
 
 ## 工具分类
 
+
 ### 硬件建模与描述语言（HDL/DSL）
 
 - [PyMTL](https://github.com/cornell-brg/pymtl)
@@ -44,6 +45,7 @@
 ### 其他相关/辅助工具
 
 - [hdlparse](https://github.com/kevinpt/hdlparse)
+- [pyvcd](https://github.com/SanDisk-Open-Source/pyvcd)：一个仿真波形/数据处理辅助工具
 
 ---
 
@@ -75,7 +77,4 @@
 - 欢迎关注、Star、Fork 本项目，助力 Python+芯片仿真生态发展！
 
 ---
-
-## 鸣谢
-
-本项目选题由 Copilot 提供，感谢其智能辅助与灵感支持。
+ 
