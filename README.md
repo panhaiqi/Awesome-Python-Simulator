@@ -1,6 +1,9 @@
+<!--
+Keywords: EDA, Digital Circuit, Logic Simulator, Verilog, Python, Open Source, Chip Design, Truth Table, Teaching, Education, AI EDA, 数字电路, 仿真, 开源, 芯片设计, 教学, 真值表, 人工智能, Python EDA, 电路仿真, 电子设计自动化
+-->
 <!-- Language Switcher / 语言切换 -->
-<p align="right">
-  <a href="#zh">中文</a> | <a href="#en">English</a>
+<p align="left">
+  <a href="#en">英文</a> | <a href="#cn">中文</a>
 </p>
 
 # Awesome Python Simulator & Electronic Design Tools
