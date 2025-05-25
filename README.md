@@ -31,10 +31,6 @@ Keywords: EDA, Digital Circuit, Logic Simulator, Verilog, Python, Open Source, C
 - [PyRTL](https://github.com/UCSBarchlab/PyRTL)：面向教学的 Python RTL 电路设计与仿真平台，适合数字逻辑课程、原型验证。
 - [MyHDL](https://github.com/myhdl/myhdl)
 - [Migen](https://github.com/m-labs/migen) / [Nmigen](https://github.com/nmigen/nmigen)
-panhaiqi
-can you show me an hello world python code
-
-GitHub Copilot
 
 - [polyphony](https://pypi.org/project/polyphony/)：可将 Python 代码直接转换为 HDL，支持硬件合成。
 - [hdl21](https://pypi.org/project/hdl21/)：用于模拟和数字硬件设计的 Python 领域特定语言。
