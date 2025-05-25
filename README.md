@@ -12,7 +12,7 @@
 
 当前 Python 在芯片设计、验证和仿真领域应用越来越广，但相关工具和资源分散、缺乏系统整理。本项目希望为该领域的开发者、教学者与爱好者提供一站式参考和交流平台。
 
---- 
+---       
 
 ## 工具分类
 
@@ -37,6 +37,7 @@
 - [BinPy](https://github.com/BinPy/BinPy)：用 Python 进行逻辑门与组合电路的建模与仿真，适合教学、原型实验。
 - [DigSim](https://pypi.org/project/digsim-logic-simulator/)：Python 实现的数字逻辑电路仿真器，支持门电路搭建与波形分析。
 - [Logisim-evolution](https://github.com/reds-heig/logisim-evolution)：虽为 Java 工具，但有 Python 脚本接口，可辅助数字电路实验和自动化仿真。
+- [pyFDA](https://pypi.org/project/pyfda/)：Python 下的数字滤波器设计与分析工具。
 
 ### EDA 工具接口与自动化
 
@@ -57,20 +58,37 @@
 - [PyAMS](https://github.com/d-fathi/PyAMS)：Python 下的混合信号建模和仿真框架。
 - [pyopus](https://github.com/xen0n/pyopus)
 
+### AI EDA
+- [ChatEDA](https://github.com/wuhy68/ChatEDAv1)：大语言模型 EDA 智能体
+- [SNS](https://github.com/Entropy-xcy/sns)：基于深度学习的综合工具，用于探索人工智能驱动的硬件综合任务。
+- [Developing synthesis flows without human knowledge](https://github.com/ycunxi/FLowGen-CNNs-DAC18)：基于强化学习的自动综合流程生成工具
+- [AutoDMP: Automated DREAMPlace-based Macro Placement](https://github.com/NVlabs/AutoDMP)
+- [DeePEB: A Neural Partial Differential Equation Solver for Post Exposure Baking Simulation in Lithography](https://github.com/Brilight/DeePEB)
+
+
+
 ### 其他相关/辅助工具
 
 - [hdlparse](https://github.com/kevinpt/hdlparse)
 - [pyvcd](https://github.com/SanDisk-Open-Source/pyvcd)：一个仿真波形/数据处理辅助工具
 - [pyDigitalWaveTools](https://pypi.org/project/pyDigitalWaveTools/)：Python 处理 VCD、FSDB 等数字仿真波形文件的工具。
 - [pyverilator](https://github.com/csail-csg/pyverilator)：Python 接口，用于与 Verilator 交互、自动化测试。
+- [CircuitNet](https://github.com/huanzhang12/CircuitNet)：开源 EDA 机器学习研究数据集，涵盖布图、综合、时序等多类任务，适合算法训练与评测。
 
 ---
+
+
 
 ## 资源与文章
 
 - [PyMTL 在计算机体系结构教学中的应用 - 知乎](https://zhuanlan.zhihu.com/p/286184451)
 - [Awesome HDL](https://github.com/drom/awesome-hdl) - 综合 HDL 资源（多语言）
 - [超40个芯片类开源项目推荐 - 极术社区](https://aijishu.com/a/1060000000360021)
+AI EDA
+- [Awesome Artificial Intelligence for Electronic Design Automation](https://github.com/Thinklab-SJTU/awesome-ai4eda)
+- [LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation](https://github.com/Thinklab-SJTU/Awesome-LLM4EDA)
+- [Awesome AI for EDA](https://github.com/thu-nics/awesome_ai4eda)
+- [Awesome AI for EDA](https://ai4eda.github.io/)
 
 ---
 
