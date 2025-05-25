@@ -3,7 +3,7 @@ Keywords: EDA, Digital Circuit, Logic Simulator, Verilog, Python, Open Source, C
 -->
 <!-- Language Switcher / 语言切换 -->
 <p align="left">
-  <a href="#en">英文</a> | <a href="#cn">中文</a>
+  <a href="#en">English</a> | <a href="#cn">中文</a>
 </p>
 
 # Awesome Python Simulator & Electronic Design Tools
