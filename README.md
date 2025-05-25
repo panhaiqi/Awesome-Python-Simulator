@@ -23,6 +23,11 @@
 - [PyRTL](https://github.com/UCSBarchlab/PyRTL)：面向教学的 Python RTL 电路设计与仿真平台，适合数字逻辑课程、原型验证。
 - [MyHDL](https://github.com/myhdl/myhdl)
 - [Migen](https://github.com/m-labs/migen) / [Nmigen](https://github.com/nmigen/nmigen)
+panhaiqi
+can you show me an hello world python code
+
+GitHub Copilot
+
 - [polyphony](https://pypi.org/project/polyphony/)：可将 Python 代码直接转换为 HDL，支持硬件合成。
 - [hdl21](https://pypi.org/project/hdl21/)：用于模拟和数字硬件设计的 Python 领域特定语言。
 
@@ -53,7 +58,7 @@
 
 ### 混合信号/模拟电路仿真
 
-- [PySpice](https://github.com/FabriceSalvaire/PySpice)
+- [PySpice](https://pypi.org/project/PySpice/)
 - [SKiDL](https://github.com/xesscorp/skidl)
 - [PyAMS](https://github.com/d-fathi/PyAMS)：Python 下的混合信号建模和仿真框架。
 - [pyopus](https://github.com/xen0n/pyopus)
@@ -87,8 +92,8 @@
 AI EDA
 - [Awesome Artificial Intelligence for Electronic Design Automation](https://github.com/Thinklab-SJTU/awesome-ai4eda)
 - [LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation](https://github.com/Thinklab-SJTU/Awesome-LLM4EDA)
-- [Awesome AI for EDA](https://github.com/thu-nics/awesome_ai4eda)
-- [Awesome AI for EDA](https://ai4eda.github.io/)
+- [thu-nics: Awesome AI for EDA](https://github.com/thu-nics/awesome_ai4eda)
+- [ai4eda: Awesome AI for EDA](https://ai4eda.github.io/)
 
 ---
 
