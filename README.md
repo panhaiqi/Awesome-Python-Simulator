@@ -130,17 +130,17 @@ AI EDA
 
 # <a id="en"></a>Awesome Python Simulator & Electronic Design Tools (English Version)
 
-> 🚀 A curated collection of high-quality open-source projects for chip modeling, simulation, verification, and testing using Python, helping researchers, developers, and students get started and choose tools efficiently.
+> 🚀 This is a curated, continuously-updated collection of open-source Python projects for chip modeling, simulation, verification, and testing. The goal is to help researchers, developers, and students quickly find and select the right tools to accelerate their work in hardware design and education.
 
 ---
 
-**Version: v0.1 (Continuously improving)**
+**Version: v0.1 (Actively maintained and improved)**
 
 ---
 
-## Why this project?
+## Project Motivation
 
-Currently, Python is increasingly used in chip design, verification, and simulation, but related tools and resources are scattered and lack systematic organization. This project aims to provide a one-stop reference and communication platform for developers, educators, and enthusiasts in this field.
+Python's role in chip design, verification, and simulation is expanding rapidly. However, the available tools and resources are scattered and lack a unified, systematized directory. This project brings together high-quality Python-based EDA and simulation tools in one place, making it easier for engineers, educators, and hobbyists to discover, compare, and use these resources.
 
 ---
 
@@ -148,93 +148,94 @@ Currently, Python is increasingly used in chip design, verification, and simulat
 
 ### Hardware Modeling & Description Languages (HDL/DSL)
 
-- [PyMTL](https://github.com/cornell-brg/pymtl)
-- [PyRTL](https://github.com/UCSBarchlab/PyRTL): Python RTL circuit design and simulation platform for teaching, suitable for digital logic courses and prototyping.
-- [MyHDL](https://github.com/myhdl/myhdl)
-- [Migen](https://github.com/m-labs/migen) / [Nmigen](https://github.com/nmigen/nmigen)
-- [polyphony](https://pypi.org/project/polyphony/): Convert Python code directly to HDL, supports hardware synthesis.
-- [hdl21](https://pypi.org/project/hdl21/): Python DSL for analog and digital hardware design.
+- [PyMTL](https://github.com/cornell-brg/pymtl): An open-source Python framework for multi-level hardware modeling.
+- [PyRTL](https://github.com/UCSBarchlab/PyRTL): A teaching-oriented Python platform for RTL circuit design and simulation, ideal for digital logic courses and prototyping.
+- [MyHDL](https://github.com/myhdl/myhdl): Converts Python code to synthesizable HDL, enabling hardware design directly in Python.
+- [Migen](https://github.com/m-labs/migen) / [Nmigen](https://github.com/nmigen/nmigen): Python toolkits for building complex digital hardware designs.
+- [polyphony](https://pypi.org/project/polyphony/): Translates Python code to synthesizable HDL for hardware synthesis.
+- [hdl21](https://pypi.org/project/hdl21/): Domain-specific language in Python for analog and digital hardware design.
 
 ### HDL Parsing & Analysis Tools
 
-- [Pyverilog](https://github.com/PyHDI/Pyverilog): Python tool for Verilog code parsing, analysis, and conversion, suitable for automated design flows and EDA research.
-- [pyVHDLParser](https://pypi.org/project/pyVHDLParser/): Python parser for VHDL, supports code analysis and AST generation.
+- [Pyverilog](https://github.com/PyHDI/Pyverilog): A Python library for parsing, analyzing, and transforming Verilog code, suitable for EDA research and automation.
+- [pyVHDLParser](https://pypi.org/project/pyVHDLParser/): Python parser for VHDL, supporting code analysis and AST generation.
 
 ### Digital Circuit/Logic Gate Simulators
 
-- [BinPy](https://github.com/BinPy/BinPy): Logic gate and combinational circuit modeling and simulation in Python, suitable for teaching and prototyping.
-- [DigSim](https://pypi.org/project/digsim-logic-simulator/): Digital logic circuit simulator in Python, supports gate building and waveform analysis.
-- [Logisim-evolution](https://github.com/reds-heig/logisim-evolution): Java tool with Python scripting interface for digital circuit experiments and automated simulation.
-- [pyFDA](https://pypi.org/project/pyfda/): Digital filter design and analysis tool in Python.
+- [BinPy](https://github.com/BinPy/BinPy): Models and simulates logic gates and combinational circuits in Python for education and prototyping.
+- [DigSim](https://pypi.org/project/digsim-logic-simulator/): A Python-based digital logic simulator supporting gate-level design and waveform analysis.
+- [Logisim-evolution](https://github.com/reds-heig/logisim-evolution): Java-based digital circuit tool with a Python scripting interface for experiments and automation.
+- [pyFDA](https://pypi.org/project/pyfda/): A Python tool for digital filter design and analysis.
 
 ### EDA Tool Interfaces & Automation
 
-- [Edalize](https://pypi.org/project/edalize/): Unified management of various EDA tools (Icarus, Yosys, ModelSim, Verilator, Vivado, etc.), supports project file generation and batch/GUI mode.
-- [FuseSoC](https://pypi.org/project/fusesoc/): Python-based SoC build and integration tool, supports multiple backend simulators and EDA tools.
+- [Edalize](https://pypi.org/project/edalize/): Provides a unified interface for managing multiple EDA tools (Icarus, Yosys, ModelSim, Verilator, Vivado, etc.), supporting project generation and batch/GUI operation.
+- [FuseSoC](https://pypi.org/project/fusesoc/): Python-based SoC build and integration tool with support for various simulators and backends.
 
-### Co-simulation & Verification
+### Co-Simulation & Verification
 
-- [cocotb](https://github.com/cocotb/cocotb)
-- [pyvpi](https://github.com/antiface/pyvpi)
-- [Cocotb-test](https://pypi.org/project/cocotb-test/): Test-driven and automation extension for Cocotb.
+- [cocotb](https://github.com/cocotb/cocotb): Coroutine-based cosimulation library for writing testbenches in Python.
+- [pyvpi](https://github.com/antiface/pyvpi): Python interface for VPI, enabling integration with Verilog simulators.
+- [Cocotb-test](https://pypi.org/project/cocotb-test/): Utilities for test automation and organization with cocotb.
 
-### Mixed-Signal/Analog Circuit Simulation
+### Mixed-Signal / Analog Circuit Simulation
 
-- [PySpice](https://pypi.org/project/PySpice/)
-- [SKiDL](https://github.com/xesscorp/skidl)
-- [PyAMS](https://github.com/d-fathi/PyAMS): Mixed-signal modeling and simulation framework in Python.
-- [pyopus](https://github.com/xen0n/pyopus)
+- [PySpice](https://pypi.org/project/PySpice/): A Python interface to SPICE simulators for analog and mixed-signal circuit simulation.
+- [SKiDL](https://github.com/xesscorp/skidl): Python library for programmatically generating electronic circuit schematics.
+- [PyAMS](https://github.com/d-fathi/PyAMS): Framework for mixed-signal modeling and simulation in Python.
+- [pyopus](https://github.com/xen0n/pyopus): Tools for analog and mixed-signal circuit design and analysis.
 
-### AI EDA
-- [ChatEDA](https://github.com/wuhy68/ChatEDAv1): LLM-based EDA agent
-- [SNS](https://github.com/Entropy-xcy/sns): Deep learning-based synthesis tool for AI-driven hardware synthesis tasks.
-- [Developing synthesis flows without human knowledge](https://github.com/ycunxi/FLowGen-CNNs-DAC18): RL-based automatic synthesis flow generation tool
-- [AutoDMP: Automated DREAMPlace-based Macro Placement](https://github.com/NVlabs/AutoDMP)
-- [DeePEB: A Neural Partial Differential Equation Solver for Post Exposure Baking Simulation in Lithography](https://github.com/Brilight/DeePEB)
+### AI for EDA
 
-### Other Related/Supporting Tools
+- [ChatEDA](https://github.com/wuhy68/ChatEDAv1): LLM-based EDA assistant agent.
+- [SNS](https://github.com/Entropy-xcy/sns): Deep learning-based hardware synthesis tool, exploring AI-driven EDA flows.
+- [FLowGen-CNNs-DAC18](https://github.com/ycunxi/FLowGen-CNNs-DAC18): Reinforcement learning for automatic synthesis flow generation.
+- [AutoDMP](https://github.com/NVlabs/AutoDMP): Automated macro placement using DREAMPlace and machine learning.
+- [DeePEB](https://github.com/Brilight/DeePEB): Neural PDE solver for lithography post-exposure baking simulation.
 
-- [hdlparse](https://github.com/kevinpt/hdlparse)
-- [pyvcd](https://github.com/SanDisk-Open-Source/pyvcd): Simulation waveform/data processing tool
-- [pyDigitalWaveTools](https://pypi.org/project/pyDigitalWaveTools/): Tools for handling VCD, FSDB, and other digital simulation waveform files in Python.
-- [pyverilator](https://github.com/csail-csg/pyverilator): Python interface for interacting with Verilator and automated testing.
-- [CircuitNet](https://github.com/huanzhang12/CircuitNet): Open-source EDA ML research dataset covering layout, synthesis, timing, etc., suitable for algorithm training and evaluation.
+### Other Related / Supporting Tools
+
+- [hdlparse](https://github.com/kevinpt/hdlparse): Tools for parsing HDL files.
+- [pyvcd](https://github.com/SanDisk-Open-Source/pyvcd): Tools for processing simulation waveforms and VCD data in Python.
+- [pyDigitalWaveTools](https://pypi.org/project/pyDigitalWaveTools/): Python utilities for handling VCD, FSDB, and similar waveform files.
+- [pyverilator](https://github.com/csail-csg/pyverilator): Python interface for automated Verilator simulation and testing.
+- [CircuitNet](https://github.com/huanzhang12/CircuitNet): Open EDA machine learning datasets for layout, synthesis, timing, and algorithm evaluation.
 
 ---
 
 ## Resources & Articles
 
 - [PyMTL in Computer Architecture Teaching - Zhihu](https://zhuanlan.zhihu.com/p/286184451)
-- [Awesome HDL](https://github.com/drom/awesome-hdl) - Comprehensive HDL resources (multi-language)
+- [Awesome HDL](https://github.com/drom/awesome-hdl) - Comprehensive multi-language HDL resources
 - [40+ Open Source Chip Projects Recommendation - Aijishu](https://aijishu.com/a/1060000000360021)
 - [Awesome Artificial Intelligence for Electronic Design Automation](https://github.com/Thinklab-SJTU/awesome-ai4eda)
-- [LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation](https://github.com/Thinklab-SJTU/Awesome-LLM4EDA)
+- [LLM4EDA: Progress in Large Language Models for EDA](https://github.com/Thinklab-SJTU/Awesome-LLM4EDA)
 - [thu-nics: Awesome AI for EDA](https://github.com/thu-nics/awesome_ai4eda)
 - [ai4eda: Awesome AI for EDA](https://ai4eda.github.io/)
 
 ---
 
-## Contribution
+## Contributing
 
-1. You are welcome to recommend new projects, supplement documentation, or correct errors via Issue or PR!
-2. See `CONTRIBUTING.md` for the recommended format. Please indicate the tool name, description, project address, and applicable scenarios.
-3. Contributions of English/Chinese documentation, sample code, and real-world cases are welcome!
+1. Contributions are welcome! Recommend new projects, add documentation, or report errors via Issues or Pull Requests.
+2. Please follow the format found in `CONTRIBUTING.md`—include tool name, description, project link, and applicable scenarios.
+3. Contributions of English/Chinese docs, code samples, and real-world use cases are especially encouraged!
 
 ---
 
 ## License
 
-Content of this project follows the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-## Contact & Communication
+## Contact & Community
 
-- For questions, suggestions, or collaboration, please leave a message via Issue or Discussions.
-- Please follow, Star, or Fork this project to support the Python + chip simulation ecosystem!
+- For questions, suggestions, or collaboration, please use Issues or Discussions.
+- If you find this project helpful, please star, fork, or share it to support the Python hardware simulation ecosystem!
 
 ---
 
 ## Acknowledgements
 
-This project was inspired by Copilot, thanks for its intelligent assistance and inspiration.
+This project was inspired by Copilot. Thanks to its intelligent assistance and support.
